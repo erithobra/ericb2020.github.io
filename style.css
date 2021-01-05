@@ -1,11 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
 header {
-    height: 100px;
+    padding: 10px;
+    height: auto;
+    background-color: slategray;
+}
+
+
+h1 {
+    line-height: 90%;
+    margin: 0px;
+}
+
+h2 {
+    line-height: 90%;
+    margin: 0px;
+    padding: 10px;
+    background-color: slategray;
+}
+
+nav {
+    margin: 10px 0px 0px 0px;
 }
 
 .navigation {
-    margin: 30px;
     text-decoration-line: none;
     color: black;
+}
+
+.text {
+    padding: 10px;
+    background-color: lightgray;
+    height: 200px;
 }
 
 .class1 {
@@ -13,5 +39,9 @@ header {
 }
 
 body {
-
+    font-family: 'Roboto', sans-serif;
+    margin: 10px auto;
+    padding: 0px 10px;
+    max-width: 1080px;
+    background: black;
 }
