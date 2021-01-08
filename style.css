@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
 header {
+    display: grid;
+    grid-template-rows: auto;
     padding: 10px;
     height: auto;
     background-color: slategray;
+    border-radius: 10px 10px 0px 0px;
 }
 
-
+footer {
+    background-color: slategray;
+    height: 100px;
+    border-radius: 0px 0px 10px 10px;
+}
 h1 {
     line-height: 90%;
     margin: 0px;
+    grid-row: 1;
+    justify-self: center;
 }
 
 h2 {
@@ -21,6 +30,8 @@ h2 {
 
 nav {
     margin: 10px 0px 0px 0px;
+    grid-row: 3;
+    justify-self: center;
 }
 
 .navigation {
@@ -44,4 +55,24 @@ body {
     padding: 0px 10px;
     max-width: 1080px;
     background: black;
+}
+
+#profile-pic {
+    height: 125px;
+    justify-self: center;
+    grid-row: 2;
+}
+
+#workingOn {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+}
+
+#workingOn section {
+    grid-column: 1;
+}
+
+#workingOn img {
+    grid-column: 1;
 }
